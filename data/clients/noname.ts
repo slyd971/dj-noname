@@ -283,7 +283,6 @@ const noNamePressKit: PressKitConfig = {
     title: "Urban Club\n& mixtapes.",
     paragraphs: [
       "Retrouvez les podcasts Urban Club, mixtapes et sélections de DJ No-Name sur SoundCloud.",
-      "Un espace audio pour suivre son univers entre nouveautés urbaines, sons afro-caribéens et classics hits.",
     ],
     cta: {
       label: "Écouter sur SoundCloud",
