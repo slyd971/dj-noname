@@ -1,0 +1,4 @@
+clientSlug,id,title,description,videoSource,src,embedUrl,videoFile,poster,posterFile,order
+"silver-dj","silver-dj-video-1","Extrait live 01","","local","/silver-dj/videos/video-sliverdj-1.mp4","","","/silver-dj/videos/video-sliverdj-1-poster.jpg","","1"
+"silver-dj","silver-dj-video-2","Extrait live 02","","local","/silver-dj/videos/videos-silverdj-2.mp4","","","/silver-dj/videos/videos-silverdj-2-poster.jpg","","2"
+"silver-dj","silver-dj-video-3","Extrait live 03","","local","/silver-dj/videos/videos-silverdj-3.mp4","","","/silver-dj/videos/videos-silverdj-3-poster.jpg","","3"

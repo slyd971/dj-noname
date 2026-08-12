@@ -1,0 +1,6 @@
+clientSlug,label,value,href,icon,external,order
+"djslyd","Mail","dj-slyd@hotmail.com","mailto:dj-slyd@hotmail.com","mail","false","1"
+"djslyd","Bookings","+33 6 63 90 78 88","tel:+33663907888","phone","false","2"
+"djslyd","Instagram","@djslyd","https://instagram.com/djslyd","instagram","true","3"
+"djslyd","SoundCloud","dj-slyd","https://soundcloud.com/dj-slyd/","music","true","4"
+"djslyd","TikTok","@djslyd","https://www.tiktok.com/@djslyd/","tiktok","true","5"

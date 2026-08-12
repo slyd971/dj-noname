@@ -1,0 +1,16 @@
+clientSlug,sectionKey,eyebrow,title,description,supportingText,signatureLabel,signatureQuote,paragraphs,tags
+"silver-dj","about","A propos","Une base ouverte,
+prete a etre habillee","","Cette version sert de structure de depart en attendant les contenus definitifs.","Positionnement","Un press kit Silver DJ deja branche sur la meme logique que les autres profils.","Silver DJ est configure comme un profil open format capable d'accueillir rapidement une direction editoriale complete.
+La structure reprend les blocs deja utilises dans le projet pour accelerer l'integration des textes, references, medias et informations de booking.
+Les contenus finaux pourront ensuite remplacer progressivement les placeholders sans changer l'architecture generale.","Open Format
+Afro
+House
+Hip-Hop
+Club
+Brand Events"
+"silver-dj","clubs","Experience","References et formats.","Section prete a recevoir les lieux, residencies, formats de booking et references Silver DJ.","","","","",""
+"silver-dj","sound","Son","A l'ecoute.","","","","","Le bloc SoundCloud est deja prepare et pourra etre mis a jour des que le profil officiel sera confirme.
+La structure permet de garder la meme logique de presentation que les autres DJs du projet.",""
+"silver-dj","videos","Videos","La section YouTube est prete.","Cette section accepte maintenant des videos locales ou des embeds YouTube. Les futurs liens Silver DJ pourront etre ajoutes ici ou via Airtable.","","","","",""
+"silver-dj","contact","Contact","Booking et demandes.","La section contact est deja prete. Il suffira de remplacer les coordonnees placeholders par les bonnes.","","","","",""
+"silver-dj","gallery","Galerie","Galerie","Le dossier media Silver DJ est deja present. Ajoute ensuite les visuels dans /public/silver-dj/gallery pour activer la galerie.","","","","",""
