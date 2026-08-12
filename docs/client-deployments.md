@@ -43,9 +43,16 @@ Valid slugs currently registered in code:
 ```txt
 djslyd
 silver-dj
+soyumi
 yoruboy-dj
 paul-keranne
 arthur-chaps
+dj-flo
+dj-flo-en
+noname
+dj-mack
+dj-mack-en
+gdc
 ```
 
 If the deployment URL already matches a configured `domain` or

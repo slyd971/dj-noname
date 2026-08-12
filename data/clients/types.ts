@@ -39,6 +39,7 @@ export type ClientSeoConfig = {
 
 export type ClientConfig = {
   slug: string;
+  slugAliases?: string[];
   domain?: string;
   vercelSubdomain: string;
   domainAliases?: string[];
