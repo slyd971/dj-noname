@@ -45,7 +45,7 @@ const noNamePressKit: PressKitConfig = {
     name: "DJ NONAME",
     stageLabel: "DJ • Beatmaker • Animateur",
     logo: {
-      src: "",
+      src: "/noname/logo/logo-dj noname 2.png",
       alt: "DJ NONAME",
       scale: 115,
       showInHero: false,
@@ -81,7 +81,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "Hip-Hop, R&B, Dancehall, Afro, Baile Funk et classiques 90s : une sélection large, pensée pour tenir le dancefloor sans perdre l'identité.",
+        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
       layout: "impact",
       image: {
         src: heroImage,
@@ -97,7 +97,7 @@ const noNamePressKit: PressKitConfig = {
       stats: [
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
-        { value: "Baile Funk", label: "Moombahton & sons afro" },
+        { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
         { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:
@@ -108,7 +108,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "Hip-Hop, R&B, Dancehall, Afro, Baile Funk et classiques 90s : une sélection large, pensée pour tenir le dancefloor sans perdre l'identité.",
+        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
       layout: "interactive",
       image: {
         src: heroImage,
@@ -124,7 +124,7 @@ const noNamePressKit: PressKitConfig = {
       stats: [
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
-        { value: "Baile Funk", label: "Moombahton & sons afro" },
+        { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
         { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:
@@ -135,7 +135,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "Hip-Hop, R&B, Dancehall, Afro, Baile Funk et classiques 90s : une sélection large, pensée pour tenir le dancefloor sans perdre l'identité.",
+        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
       layout: "showcase",
       image: {
         src: heroImage,
@@ -151,7 +151,7 @@ const noNamePressKit: PressKitConfig = {
       stats: [
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
-        { value: "Baile Funk", label: "Moombahton & sons afro" },
+        { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
         { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:

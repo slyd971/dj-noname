@@ -188,8 +188,8 @@ function getHeroStatLabelClass(label: string) {
   const isLongLabel = label.trim().length >= 16;
 
   return isLongLabel
-    ? "mt-2 text-[8px] uppercase leading-[1.18] tracking-[0.08em] text-white/48 md:mt-2.5 md:min-h-[2.1rem] md:text-[9px] md:leading-[1.12] md:tracking-[0.12em]"
-    : "mt-2 text-[8px] uppercase leading-[1.2] tracking-[0.12em] text-white/48 md:mt-2.5 md:min-h-[2.1rem] md:text-[10px] md:leading-[1.12] md:tracking-[0.14em]";
+    ? "mt-2 text-[9px] uppercase leading-[1.18] tracking-[0.08em] text-white/48 md:mt-2.5 md:min-h-[2.1rem] md:text-[10px] md:leading-[1.12] md:tracking-[0.12em]"
+    : "mt-2 text-[9px] uppercase leading-[1.2] tracking-[0.12em] text-white/48 md:mt-2.5 md:min-h-[2.1rem] md:text-[11px] md:leading-[1.12] md:tracking-[0.14em]";
 }
 
 export function HeroSection({
