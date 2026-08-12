@@ -5,7 +5,7 @@ import { isLocalHostname, matchesHostname, normalizeHostname } from "@/lib/domai
 export { getClientBySlug, getClients };
 export type { ClientConfig };
 
-export const defaultClientSlug = "djslyd";
+export const defaultClientSlug = "noname";
 const deploymentClientEnvKeys = [
   "PRESS_KIT_CLIENT_SLUG",
   "SLYD_PRESS_KIT_CLIENT_SLUG",
@@ -68,6 +68,6 @@ export function resolveClient(hostname?: string | null, slug?: string | null) {
     (isLocal ? getClientBySlug(slug) : null) ??
     getClientByHost(hostname) ??
     (isLocal ? null : getDeploymentClient()) ??
-    (isLocal ? getDefaultClient() : null)
+    getDefaultClient()
   );
 }

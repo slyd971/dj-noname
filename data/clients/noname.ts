@@ -388,7 +388,8 @@ const noNamePressKit: PressKitConfig = {
 export const noNameClient: ClientConfig = {
   slug: "noname",
   domain: "noname.presskit.fr",
-  vercelSubdomain: "noname.vercel.app",
+  vercelSubdomain: "dj-noname.vercel.app",
+  domainAliases: ["noname.vercel.app"],
   name: "DJ NONAME",
   tagline: "DJ open format - La Réunion, Paris & Urban Club",
   city: "Paris",
