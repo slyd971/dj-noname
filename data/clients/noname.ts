@@ -231,9 +231,8 @@ const noNamePressKit: PressKitConfig = {
   },
   youtube: {
     eyebrow: "YouTube",
-    title: "Sélections\nvidéo.",
-    description:
-      "Deux vidéos pour situer son approche : sélection urbaine et passage naturel entre les styles.",
+    title: "Immersion dans\nl'univers de Noname.",
+    description: "",
     items: [
       {
         id: "noname-youtube-2fmd7lrp3ai",
@@ -263,8 +262,8 @@ const noNamePressKit: PressKitConfig = {
     intro:
       "En 2023, No-Name devient DJ officiel de la radio Urban Hit Réunion et lance son émission URBAN CLUB tous les samedis de 20h à 22h.",
     paragraphs: [
-      "Le format prolonge ce qui fait sa signature : une sélection éclectique, capable de passer du Hip-Hop au R&B, du Dancehall à l'Afro, tout en gardant l'instinct club.",
-      "Né à La Réunion et nourri par les scènes parisiennes depuis 2010, No-Name y relie naturellement son île, les sons urbains et les classic hits qui ont formé son oreille.",
+      "Le format prolonge ce qui fait sa signature : une sélection éclectique, capable de passer du Hip-Hop au R&B, du Dancehall à l'Afro.",
+      "Chaque semaine, il y reçoit et interviewe des artistes montants et des stars nationales et internationales.",
     ],
     media: [],
     embed: {
