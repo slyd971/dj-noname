@@ -31,7 +31,7 @@ const noNamePressKit: PressKitConfig = {
   metadata: {
     title: "DJ Noname | DJ Hip-Hop & R&B à La Réunion, Urban Hit Réunion",
     description:
-      "DJ réunionnais basé à La Réunion, Noname relie Hip-Hop, R&B, Afro, Dancehall et radio avec Urban Club sur NRJ Réunion, Bercy, U-Arena et Les Ardentes.",
+      "DJ réunionnais basé à La Réunion, Noname signe des sets Hip-Hop, R&B, Afro et Dancehall, entre culture club, radio et énergie urbaine.",
   },
   ui: {
     openMenuLabel: "Ouvrir le menu",
@@ -425,7 +425,7 @@ export const noNameClient: ClientConfig = {
   seo: {
     title: "DJ Noname | Booking DJ Hip-Hop & R&B à La Réunion",
     description:
-      "Booker DJ Noname : DJ réunionnais basé à La Réunion, animateur Urban Club sur NRJ Réunion, références Bercy, U-Arena, Les Ardentes, clubs Hip-Hop et R&B.",
+      "Booker DJ Noname : DJ réunionnais basé à La Réunion, animateur Urban Club sur NRJ Réunion, spécialisé Hip-Hop, R&B, Afro et Dancehall.",
     keywords: [
       "DJ Noname",
       "DJ Noname La Réunion",
