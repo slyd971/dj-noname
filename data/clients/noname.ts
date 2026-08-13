@@ -29,9 +29,9 @@ const gallery = Array.from({ length: 10 }, (_, index) => {
 
 const noNamePressKit: PressKitConfig = {
   metadata: {
-    title: "DJ Noname | DJ Hip-Hop & R&B à Paris, Urban Hit Réunion",
+    title: "DJ Noname | DJ Hip-Hop & R&B à La Réunion, Urban Hit Réunion",
     description:
-      "DJ réunionnais basé à Paris, Noname relie clubs Hip-Hop, R&B, Afro et Dancehall, Urban Club sur NRJ Réunion, Bercy, U-Arena et Les Ardentes.",
+      "DJ réunionnais basé à La Réunion, Noname relie Hip-Hop, R&B, Afro, Dancehall et radio avec Urban Club sur NRJ Réunion, Bercy, U-Arena et Les Ardentes.",
   },
   ui: {
     openMenuLabel: "Ouvrir le menu",
@@ -82,7 +82,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
+        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
       layout: "impact",
       image: {
         src: heroImage,
@@ -109,7 +109,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
+        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
       layout: "interactive",
       image: {
         src: heroImage,
@@ -136,7 +136,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion dans les racines, Paris dans les clubs, le Hip-Hop comme colonne vertébrale.",
+        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
       layout: "showcase",
       image: {
         src: heroImage,
@@ -161,15 +161,15 @@ const noNamePressKit: PressKitConfig = {
   },
   about: {
     eyebrow: "Bio",
-    title: "La Réunion,\nParis, les clubs.",
+    title: "La Réunion,\nles clubs, la radio.",
     signatureLabel: "Signature",
     signatureQuote:
       "Noname est reconnu pour sa sélection éclectique, allant du Hip-Hop au R&B, en passant par le Moombahton, le Baile Funk, le Dancehall et la musique Afro.",
     supportingText:
-      "DJ réunionnais basé en région parisienne, actif en club, radio et live.",
+      "DJ réunionnais basé à La Réunion, actif en club, radio et live.",
     tags: ["Hip-Hop", "R&B", "Moombahton", "Baile Funk", "Dancehall", "Afro", "Classics 90s"],
     paragraphs: [
-      "Né à l'île de La Réunion, Noname pose ses valises en région parisienne en 2010. Depuis 2017, il s'illustre dans les meilleurs clubs de Paris auprès des meilleurs DJs de la capitale.",
+      "Né à l'île de La Réunion, Noname construit un parcours entre son île, les clubs, la radio et les scènes urbaines. Depuis 2017, il s'illustre auprès de DJs majeurs et sur des dancefloors exigeants.",
       "Il est régulièrement guest sur les ondes de la radio nationale Mouv', notamment aux côtés de l'artiste international Vashtie ou du DJ/Producteur jamaïcain The Kemist. Dès 2018, il devient résident de deux lieux mythiques de la culture Hip-Hop à Paris : le Twenty Sound Bar et le F.A.T. Bar.",
       "Curieux de nature et enfant des 90s, il n'hésite pas à se replonger dans le passé pour faire découvrir ou redécouvrir les classic hits de l'époque, tout en gardant une énergie connectée aux clubs d'aujourd'hui.",
       "Sa rapide ascension lui ouvre les portes de l'AccorHotels Arena dès 2019, où il mixe devant 15 000 personnes. En 2020, il devient Road Manager pour Dirty Swift lors de la première partie du concert de DJ Snake à la U-Arena devant 42 000 personnes.",
@@ -366,7 +366,7 @@ const noNamePressKit: PressKitConfig = {
   },
   footer: {
     availabilityText:
-      "DJ open format · Paris & Réunion · Clubs, radio, festivals et événements privés.",
+      "DJ open format · La Réunion · Clubs, radio, festivals et événements privés.",
     navigationLabel: "Navigation",
     socialLabel: "Réseaux",
     bookingLabel: "Booking",
@@ -382,9 +382,9 @@ export const noNameClient: ClientConfig = {
   vercelSubdomain: "dj-noname.vercel.app",
   domainAliases: ["noname.presskit.fr", "noname.vercel.app"],
   name: "DJ NONAME",
-  tagline: "DJ Hip-Hop & R&B - La Réunion, Paris & Urban Club",
-  city: "Paris",
-  country: "France / Réunion",
+  tagline: "DJ Hip-Hop & R&B - La Réunion & Urban Club",
+  city: "La Réunion",
+  country: "France",
   category: "DJ Hip-Hop / R&B / Afro / Dancehall / Urban Club",
   description: noNamePressKit.metadata.description,
   longBio: noNamePressKit.about.paragraphs.join(" "),
@@ -400,8 +400,8 @@ export const noNameClient: ClientConfig = {
   },
   contact: {
     email: bookingEmail,
-    city: "Paris",
-    country: "France / Réunion",
+    city: "La Réunion",
+    country: "France",
   },
   services: [
     {
@@ -423,27 +423,27 @@ export const noNameClient: ClientConfig = {
   testimonials: [],
   bookingEmail,
   seo: {
-    title: "DJ Noname | Booking DJ Hip-Hop & R&B à Paris",
+    title: "DJ Noname | Booking DJ Hip-Hop & R&B à La Réunion",
     description:
-      "Booker DJ Noname : DJ réunionnais basé à Paris, animateur Urban Club sur NRJ Réunion, références Bercy, U-Arena, Les Ardentes, clubs Hip-Hop et R&B.",
+      "Booker DJ Noname : DJ réunionnais basé à La Réunion, animateur Urban Club sur NRJ Réunion, références Bercy, U-Arena, Les Ardentes, clubs Hip-Hop et R&B.",
     keywords: [
       "DJ Noname",
-      "DJ Noname Paris",
+      "DJ Noname La Réunion",
       "DJ NONAME",
       "booking DJ Noname",
       "booker DJ Noname",
-      "DJ Hip-Hop R&B Paris",
-      "DJ réunionnais Paris",
-      "DJ Réunion Paris",
+      "DJ Hip-Hop R&B Réunion",
+      "DJ réunionnais La Réunion",
+      "DJ Réunion",
       "Urban Hit Réunion",
       "Urban Club NRJ Réunion",
       "animateur NRJ Réunion",
-      "DJ Hip-Hop Paris",
-      "DJ R&B Paris",
-      "DJ Dancehall Paris",
-      "DJ Afro Paris",
-      "DJ Baile Funk Paris",
-      "DJ Moombahton Paris",
+      "DJ Hip-Hop Réunion",
+      "DJ R&B Réunion",
+      "DJ Dancehall Réunion",
+      "DJ Afro Réunion",
+      "DJ Baile Funk Réunion",
+      "DJ Moombahton Réunion",
       "DJ Les Ardentes",
       "DJ Bercy Paris",
       "DJ U-Arena",
