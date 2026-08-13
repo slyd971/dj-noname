@@ -448,7 +448,7 @@ export const noNameClient: ClientConfig = {
       "DJ U-Arena",
     ],
     canonical: "https://dj-noname.presskit.fr/",
-    ogImage: "/opengraph-image",
+    ogImage: "/noname/og-image.jpg",
   },
   defaultTheme: "violet",
   defaultVariant: "impact",
