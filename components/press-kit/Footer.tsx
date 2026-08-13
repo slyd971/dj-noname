@@ -41,6 +41,7 @@ export function Footer({
   const socialLinks = getSocialLinks(client);
   const hasBookingEmail = Boolean(client.bookingEmail);
   const footerLabels = client.pressKit.footer;
+  const logo = client.pressKit.artist.logo;
   const languageSwitch = client.languageSwitch?.filter((item) => item.href);
   const availabilityText =
     footerLabels?.availabilityText ??
@@ -52,9 +53,18 @@ export function Footer({
         <div className="col-span-2 sm:col-span-1">
           <Link
             href={homeHref}
-            className="text-xl font-black uppercase tracking-[0.16em] text-white md:text-2xl md:tracking-[0.18em]"
+            className="inline-flex text-xl font-black uppercase tracking-[0.16em] text-white md:text-2xl md:tracking-[0.18em]"
           >
-            {client.name}
+            {logo?.src ? (
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                className="h-12 w-auto max-w-[11rem] object-contain object-left md:h-16 md:max-w-[13rem]"
+                style={logo.invert ? { filter: "invert(1)" } : undefined}
+              />
+            ) : (
+              client.name
+            )}
           </Link>
           <p className="mt-3 max-w-md text-sm leading-6 text-white/58 sm:max-w-none">
             {client.tagline}. {availabilityText}
