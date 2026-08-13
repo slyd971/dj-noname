@@ -31,7 +31,7 @@ const noNamePressKit: PressKitConfig = {
   metadata: {
     title: "DJ Noname | DJ Hip-Hop & R&B à La Réunion, Urban Hit Réunion",
     description:
-      "DJ réunionnais basé à La Réunion, Noname signe des sets Hip-Hop, R&B, Afro et Dancehall, entre culture club, radio et énergie urbaine.",
+      "DJ international, Noname signe des sets Hip-Hop, R&B, Afro et Dancehall, entre culture club, radio et énergie urbaine.",
   },
   ui: {
     openMenuLabel: "Ouvrir le menu",
@@ -82,7 +82,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
+        "Basé à La Réunion, Noname est un DJ éclectique à plusieurs facettes, entre sets taillés pour le club, beatmaking et radio.",
       layout: "impact",
       image: {
         src: heroImage,
@@ -109,7 +109,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
+        "Basé à La Réunion, Noname est un DJ éclectique à plusieurs facettes, entre sets taillés pour le club, beatmaking et radio.",
       layout: "interactive",
       image: {
         src: heroImage,
@@ -136,7 +136,7 @@ const noNamePressKit: PressKitConfig = {
       title: "DJ NONAME",
       accent: "DJ BEATMAKER & ANIMATEUR",
       description:
-        "La Réunion comme base, le Hip-Hop comme colonne vertébrale, le club comme terrain naturel.",
+        "Basé à La Réunion, Noname est un DJ éclectique à plusieurs facettes, entre sets taillés pour le club, beatmaking et radio.",
       layout: "showcase",
       image: {
         src: heroImage,
@@ -165,8 +165,7 @@ const noNamePressKit: PressKitConfig = {
     signatureLabel: "Signature",
     signatureQuote:
       "Noname est reconnu pour sa sélection éclectique, allant du Hip-Hop au R&B, en passant par le Moombahton, le Baile Funk, le Dancehall et la musique Afro.",
-    supportingText:
-      "DJ réunionnais basé à La Réunion, actif en club, radio et live.",
+    supportingText: "",
     tags: ["Hip-Hop", "R&B", "Moombahton", "Baile Funk", "Dancehall", "Afro", "Classics 90s"],
     paragraphs: [
       "Né à l'île de La Réunion, Noname construit un parcours entre son île, les clubs, la radio et les scènes urbaines. Depuis 2017, il s'illustre auprès de DJs majeurs et sur des dancefloors exigeants.",
@@ -425,7 +424,7 @@ export const noNameClient: ClientConfig = {
   seo: {
     title: "DJ Noname | Booking DJ Hip-Hop & R&B à La Réunion",
     description:
-      "Booker DJ Noname : DJ réunionnais basé à La Réunion, animateur Urban Club sur NRJ Réunion, spécialisé Hip-Hop, R&B, Afro et Dancehall.",
+      "Booker DJ Noname : DJ international, animateur Urban Club sur NRJ Réunion, spécialisé Hip-Hop, R&B, Afro et Dancehall.",
     keywords: [
       "DJ Noname",
       "DJ Noname La Réunion",

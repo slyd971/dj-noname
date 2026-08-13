@@ -282,10 +282,10 @@ export function HeroSection({
 
             <h1 className="mt-5 text-[2.8rem] font-black uppercase leading-[0.88] tracking-tight text-white sm:text-6xl md:mt-7 md:text-7xl xl:text-[7.2rem]">
               {hero.title}
-              <span className="block text-[var(--pk-accent)]">{hero.accent}</span>
+              <span className="mt-2 block text-[var(--pk-accent)] md:mt-3">{hero.accent}</span>
             </h1>
 
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/78 md:mt-5 md:text-xl md:leading-8">
+            <p className="mt-5 max-w-2xl text-sm leading-6 text-white/78 md:mt-7 md:text-xl md:leading-8">
               {hero.description}
             </p>
           </div>
@@ -388,10 +388,10 @@ export function HeroSection({
 
             <h1 className="mt-5 text-[2.9rem] font-black uppercase leading-[0.88] tracking-tight text-white sm:text-6xl md:mt-7 md:text-7xl xl:text-[7.4rem]">
               {hero.title}
-              <span className="block text-[var(--pk-accent)]">{hero.accent}</span>
+              <span className="mt-2 block text-[var(--pk-accent)] md:mt-3">{hero.accent}</span>
             </h1>
 
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/78 md:mt-5 md:text-xl md:leading-8">
+            <p className="mt-5 max-w-2xl text-sm leading-6 text-white/78 md:mt-7 md:text-xl md:leading-8">
               {hero.description}
             </p>
 
@@ -483,12 +483,12 @@ export function HeroSection({
               className="max-w-4xl text-[2.55rem] font-black uppercase leading-[0.9] tracking-[-0.03em] sm:text-5xl md:text-7xl xl:text-[6.9rem]"
             >
               {logo?.src ? null : hero.title}
-              <span className={`block text-[var(--pk-accent)] ${getHeroAccentSizeClass(hero.accent)}`}>{hero.accent}</span>
+              <span className={`mt-2 block text-[var(--pk-accent)] md:mt-3 ${getHeroAccentSizeClass(hero.accent)}`}>{hero.accent}</span>
             </motion.h1>
 
             <motion.p
               variants={heroReveal}
-              className="mt-3 max-w-[40rem] text-[0.96rem] leading-6 text-white/76 md:mt-4 md:text-[1.12rem] md:leading-8"
+              className="mt-5 max-w-[40rem] text-[0.96rem] leading-6 text-white/76 md:mt-6 md:text-[1.12rem] md:leading-8"
             >
               {hero.description}
             </motion.p>
