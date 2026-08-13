@@ -20,17 +20,18 @@ const gallery = Array.from({ length: 10 }, (_, index) => {
 
   return {
     src: `/noname/gallery/noname-gallery${imageNumber}.jpg`,
-    alt: `DJ No-Name galerie ${imageNumber}`,
+    alt: `DJ Noname galerie ${imageNumber}`,
     size: imageNumber === 1 ? "md:col-span-2 md:row-span-2" : undefined,
+    hideFromPreview: imageNumber === 1,
     position: "center 24%",
   };
 });
 
 const noNamePressKit: PressKitConfig = {
   metadata: {
-    title: "DJ No-Name Press Kit | Hip-Hop, R&B, Afro & Urban Club",
+    title: "DJ Noname | DJ Hip-Hop & R&B à Paris, Urban Hit Réunion",
     description:
-      "Découvrez DJ No-Name, DJ réunionnais basé en région parisienne, résident Urban Hit Réunion et open format entre Hip-Hop, R&B, Moombahton, Baile Funk, Dancehall et Afro.",
+      "DJ réunionnais basé à Paris, Noname relie clubs Hip-Hop, R&B, Afro et Dancehall, Urban Club sur NRJ Réunion, Bercy, U-Arena et Les Ardentes.",
   },
   ui: {
     openMenuLabel: "Ouvrir le menu",
@@ -85,7 +86,7 @@ const noNamePressKit: PressKitConfig = {
       layout: "impact",
       image: {
         src: heroImage,
-        alt: "DJ No-Name hero portrait",
+        alt: "DJ Noname hero portrait",
         badge: "",
         caption: "",
         position: "center 24%",
@@ -112,7 +113,7 @@ const noNamePressKit: PressKitConfig = {
       layout: "interactive",
       image: {
         src: heroImage,
-        alt: "DJ No-Name press visual",
+        alt: "DJ Noname press visual",
         badge: "",
         caption: "",
         position: "center 24%",
@@ -139,7 +140,7 @@ const noNamePressKit: PressKitConfig = {
       layout: "showcase",
       image: {
         src: heroImage,
-        alt: "DJ No-Name editorial portrait",
+        alt: "DJ Noname editorial portrait",
         badge: "",
         caption: "",
         position: "center 24%",
@@ -163,12 +164,12 @@ const noNamePressKit: PressKitConfig = {
     title: "La Réunion,\nParis, les clubs.",
     signatureLabel: "Signature",
     signatureQuote:
-      "No-Name est reconnu pour sa sélection éclectique, allant du Hip-Hop au R&B, en passant par le Moombahton, le Baile Funk, le Dancehall et la musique Afro.",
+      "Noname est reconnu pour sa sélection éclectique, allant du Hip-Hop au R&B, en passant par le Moombahton, le Baile Funk, le Dancehall et la musique Afro.",
     supportingText:
       "DJ réunionnais basé en région parisienne, actif en club, radio et live.",
     tags: ["Hip-Hop", "R&B", "Moombahton", "Baile Funk", "Dancehall", "Afro", "Classics 90s"],
     paragraphs: [
-      "Né à l'île de La Réunion, No-Name pose ses valises en région parisienne en 2010. Depuis 2017, il s'illustre dans les meilleurs clubs de Paris auprès des meilleurs DJs de la capitale.",
+      "Né à l'île de La Réunion, Noname pose ses valises en région parisienne en 2010. Depuis 2017, il s'illustre dans les meilleurs clubs de Paris auprès des meilleurs DJs de la capitale.",
       "Il est régulièrement guest sur les ondes de la radio nationale Mouv', notamment aux côtés de l'artiste international Vashtie ou du DJ/Producteur jamaïcain The Kemist. Dès 2018, il devient résident de deux lieux mythiques de la culture Hip-Hop à Paris : le Twenty Sound Bar et le F.A.T. Bar.",
       "Curieux de nature et enfant des 90s, il n'hésite pas à se replonger dans le passé pour faire découvrir ou redécouvrir les classic hits de l'époque, tout en gardant une énergie connectée aux clubs d'aujourd'hui.",
       "Sa rapide ascension lui ouvre les portes de l'AccorHotels Arena dès 2019, où il mixe devant 15 000 personnes. En 2020, il devient Road Manager pour Dirty Swift lors de la première partie du concert de DJ Snake à la U-Arena devant 42 000 personnes.",
@@ -179,7 +180,7 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "Références",
     title: "Références\nclubs & scènes.",
     description:
-      "Une sélection de lieux, radios et scènes où No-Name a joué ou collaboré.",
+      "Une sélection de lieux, radios et scènes où Noname a joué ou collaboré.",
     regions: [
       {
         title: "Références clés",
@@ -226,7 +227,7 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "Vidéos",
     title: "Extraits\nlive.",
     description:
-      "Quelques séquences pour voir No-Name derrière les platines.",
+      "Quelques séquences pour voir Noname derrière les platines.",
     items: [],
   },
   youtube: {
@@ -260,14 +261,14 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "Urban Hit Réunion",
     title: "Animateur\nsur NRJ Réunion.",
     intro:
-      "En 2023, No-Name devient DJ officiel de la radio Urban Hit Réunion et lance son émission URBAN CLUB tous les samedis de 20h à 22h.",
+      "En 2023, Noname devient DJ officiel de la radio Urban Hit Réunion et lance son émission URBAN CLUB tous les samedis de 20h à 22h.",
     paragraphs: [
       "Le format prolonge ce qui fait sa signature : une sélection éclectique, capable de passer du Hip-Hop au R&B, du Dancehall à l'Afro.",
       "Chaque semaine, il y reçoit et interviewe des artistes montants et des stars nationales et internationales.",
     ],
     media: [],
     embed: {
-      title: "Urban Club #98 - DJ No-Name",
+      title: "Urban Club #98 - DJ Noname",
       src: urbanClubPodcastEmbedUrl,
       height: 300,
     },
@@ -282,14 +283,14 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "SoundCloud",
     title: "Urban Club\n& mixtapes.",
     paragraphs: [
-      "Retrouvez les podcasts Urban Club, mixtapes et sélections de DJ No-Name sur SoundCloud.",
+      "Retrouvez les podcasts Urban Club, mixtapes et sélections de DJ Noname sur SoundCloud.",
     ],
     cta: {
       label: "Écouter sur SoundCloud",
       href: soundCloudUrl,
       external: true,
     },
-    embedTitle: "Lecteur SoundCloud DJ No-Name",
+    embedTitle: "Lecteur SoundCloud DJ Noname",
     embedUrl: soundCloudEmbedUrl,
   },
   spotify: {
@@ -300,22 +301,13 @@ const noNamePressKit: PressKitConfig = {
     badgeLabel: "Spotify",
   },
   brands: {
-    eyebrow: "Parcours",
-    title: "Temps\nforts.",
-    intro:
-      "De Bercy à la U-Arena, des clubs parisiens aux scènes réunionnaises, No-Name construit un parcours solide entre DJ sets, radio et live.",
-    supportingText:
-      "Ces références mettent en avant sa fiabilité, son adaptation et sa capacité à tenir une énergie musicale cohérente devant des publics très différents.",
-    categories: ["Radio", "Clubs", "Festivals", "Paris", "Réunion"],
-    itemLabel: "Référence",
-    items: [
-      "Guest Mouv' Radio avec Vashtie et The Kemist",
-      "AccorHotels Arena Bercy devant 15 000 personnes",
-      "Road Manager Dirty Swift - DJ Snake à la U-Arena",
-      "DJ officiel de l'artiste Ossem",
-      "Festival Les Ardentes en Belgique",
-      "DJ officiel Urban Hit Réunion depuis 2023",
-    ],
+    eyebrow: "",
+    title: "",
+    intro: "",
+    supportingText: "",
+    categories: [],
+    itemLabel: "",
+    items: [],
   },
   rider: {
     eyebrow: "Rider",
@@ -339,7 +331,7 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "Contact",
     title: "Booking",
     description:
-      "Pour une date club, un événement privé, une programmation radio, une scène urbaine ou une collaboration artistique, contactez DJ No-Name.",
+      "Pour une date club, un événement privé, une programmation radio, une scène urbaine ou une collaboration artistique, contactez DJ Noname.",
     methods: [
       {
         label: "Email",
@@ -367,8 +359,8 @@ const noNamePressKit: PressKitConfig = {
     eyebrow: "Galerie",
     title: "Photos",
     description:
-      "Photos presse et images live de DJ No-Name.",
-    homepageTitle: "Photos",
+      "Photos presse et images live de DJ Noname.",
+    homepageTitle: "Visuels",
     homepageCtaLabel: "Voir toutes les photos",
     images: gallery,
   },
@@ -390,10 +382,10 @@ export const noNameClient: ClientConfig = {
   vercelSubdomain: "dj-noname.vercel.app",
   domainAliases: ["noname.presskit.fr", "noname.vercel.app"],
   name: "DJ NONAME",
-  tagline: "DJ open format - La Réunion, Paris & Urban Club",
+  tagline: "DJ Hip-Hop & R&B - La Réunion, Paris & Urban Club",
   city: "Paris",
   country: "France / Réunion",
-  category: "DJ open format / Hip-Hop / R&B / Afro / Dancehall",
+  category: "DJ Hip-Hop / R&B / Afro / Dancehall / Urban Club",
   description: noNamePressKit.metadata.description,
   longBio: noNamePressKit.about.paragraphs.join(" "),
   heroImage,
@@ -431,19 +423,30 @@ export const noNameClient: ClientConfig = {
   testimonials: [],
   bookingEmail,
   seo: {
-    title: noNamePressKit.metadata.title,
-    description: noNamePressKit.metadata.description,
+    title: "DJ Noname | Booking DJ Hip-Hop & R&B à Paris",
+    description:
+      "Booker DJ Noname : DJ réunionnais basé à Paris, animateur Urban Club sur NRJ Réunion, références Bercy, U-Arena, Les Ardentes, clubs Hip-Hop et R&B.",
     keywords: [
-      "DJ No-Name",
-      "DJ No Name",
+      "DJ Noname",
+      "DJ Noname Paris",
+      "DJ NONAME",
+      "booking DJ Noname",
+      "booker DJ Noname",
+      "DJ Hip-Hop R&B Paris",
       "DJ réunionnais Paris",
+      "DJ Réunion Paris",
       "Urban Hit Réunion",
       "Urban Club NRJ Réunion",
+      "animateur NRJ Réunion",
       "DJ Hip-Hop Paris",
       "DJ R&B Paris",
       "DJ Dancehall Paris",
       "DJ Afro Paris",
-      "DJ open format Paris",
+      "DJ Baile Funk Paris",
+      "DJ Moombahton Paris",
+      "DJ Les Ardentes",
+      "DJ Bercy Paris",
+      "DJ U-Arena",
     ],
     canonical: "https://dj-noname.presskit.fr/",
     ogImage: "/opengraph-image",

@@ -14,10 +14,9 @@ For local requests (`localhost`, `127.0.0.1`, `0.0.0.0`):
 
 For public requests:
 
-1. configured Airtable host (`domain` or `vercelSubdomain`)
-2. configured local host (`domain`, `vercelSubdomain`, or `domainAliases`)
-3. explicit deployment slug from environment
-4. no fallback: the request returns 404 / no sitemap
+1. configured local host (`domain`, `vercelSubdomain`, or `domainAliases`)
+2. explicit deployment slug from environment
+3. no fallback: the request returns 404 / no sitemap
 
 The public resolver intentionally ignores `?client=` and `?artist=` so one
 client URL cannot render another client's press kit.

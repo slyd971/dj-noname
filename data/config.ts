@@ -51,6 +51,7 @@ export type GalleryImage = {
   previewScale?: number;
   previewOffsetY?: string;
   previewOnly?: boolean;
+  hideFromPreview?: boolean;
 };
 
 export type SpotifyPlaylist = {

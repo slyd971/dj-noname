@@ -13,7 +13,9 @@ export function GalleryPreviewSection({
   gallery,
   galleryHref,
 }: GalleryPreviewSectionProps) {
-  const regularImages = gallery.images.filter((img) => !img.previewOnly).slice(0, 3);
+  const regularImages = gallery.images
+    .filter((img) => !img.previewOnly && !img.hideFromPreview)
+    .slice(0, 3);
   const previewImages = [...regularImages, ...gallery.images.filter((img) => img.previewOnly)];
 
   return (
@@ -40,11 +42,11 @@ export function GalleryPreviewSection({
       </div>
 
       <div className="grid auto-rows-[220px] grid-cols-1 gap-3 md:grid-cols-4 md:auto-rows-[220px] md:gap-4">
-        {previewImages.map((image) => (
+        {previewImages.map((image, index) => (
           <Link
             key={image.src}
             href={galleryHref}
-            className={`${image.size ?? ""} group relative block overflow-hidden rounded-[1.4rem] border border-white/10 bg-white/5 md:rounded-[2rem]`}
+            className={`${image.size ?? (index === 0 ? "md:col-span-2 md:row-span-2" : "")} group relative block overflow-hidden rounded-[1.4rem] border border-white/10 bg-white/5 md:rounded-[2rem]`}
           >
             <div
               className="absolute inset-0 transition duration-700 group-hover:scale-105"

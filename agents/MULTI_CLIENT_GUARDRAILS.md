@@ -28,9 +28,8 @@ clients.
 - `data/clients/<slug>.ts`
 - `data/clients/index.ts`, uniquement pour enregistrer le client
 - `public/<slug>/**`
-- `docs/airtable-seed/<slug>/**`
 - Variables d'environnement du projet Vercel client
-- Mapping de domaine externe si le domaine n'est pas pilote par Airtable
+- Mapping de domaine externe si le domaine n'est pas configure dans le client local
 
 ## Fichiers a proteger
 

@@ -285,7 +285,7 @@ export function HeroSection({
               <span className="block text-[var(--pk-accent)]">{hero.accent}</span>
             </h1>
 
-            <p className="mt-7 max-w-2xl text-sm leading-6 text-white/78 md:mt-10 md:text-xl md:leading-8">
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/78 md:mt-5 md:text-xl md:leading-8">
               {hero.description}
             </p>
           </div>
@@ -391,7 +391,7 @@ export function HeroSection({
               <span className="block text-[var(--pk-accent)]">{hero.accent}</span>
             </h1>
 
-            <p className="mt-7 max-w-2xl text-sm leading-6 text-white/78 md:mt-10 md:text-xl md:leading-8">
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/78 md:mt-5 md:text-xl md:leading-8">
               {hero.description}
             </p>
 
@@ -488,7 +488,7 @@ export function HeroSection({
 
             <motion.p
               variants={heroReveal}
-              className="mt-5 max-w-[40rem] text-[0.96rem] leading-6 text-white/76 md:mt-7 md:text-[1.12rem] md:leading-8"
+              className="mt-3 max-w-[40rem] text-[0.96rem] leading-6 text-white/76 md:mt-4 md:text-[1.12rem] md:leading-8"
             >
               {hero.description}
             </motion.p>
