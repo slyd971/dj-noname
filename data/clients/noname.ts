@@ -99,7 +99,7 @@ const noNamePressKit: PressKitConfig = {
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
         { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
-        { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
+        { value: "Urban Hit Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:
         "Hip-Hop - R&B - Dancehall - Afro - Baile Funk - Classics",
@@ -126,7 +126,7 @@ const noNamePressKit: PressKitConfig = {
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
         { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
-        { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
+        { value: "Urban Hit Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:
         "Hip-Hop - R&B - Dancehall - Afro - Baile Funk - Classics",
@@ -153,7 +153,7 @@ const noNamePressKit: PressKitConfig = {
         { value: "9+", label: "ans d'expérience club" },
         { value: "Hip-Hop / R&B", label: "styles de prédilection" },
         { value: "Owner", label: "Le Club Hip Hop & Hola Sunday" },
-        { value: "NRJ Réunion", label: "animateur radio depuis 2023" },
+        { value: "Urban Hit Réunion", label: "animateur radio depuis 2023" },
       ],
       proofline:
         "Hip-Hop - R&B - Dancehall - Afro - Baile Funk - Classics",
@@ -258,7 +258,7 @@ const noNamePressKit: PressKitConfig = {
   },
   vision: {
     eyebrow: "Urban Hit Réunion",
-    title: "Animateur\nsur NRJ Réunion.",
+    title: "Animateur\nsur Urban Hit Réunion.",
     intro:
       "En 2023, Noname devient DJ officiel de la radio Urban Hit Réunion et lance son émission URBAN CLUB tous les samedis de 20h à 22h.",
     paragraphs: [
@@ -424,7 +424,7 @@ export const noNameClient: ClientConfig = {
   seo: {
     title: "DJ Noname | Booking DJ Hip-Hop & R&B à La Réunion",
     description:
-      "Booker DJ Noname : DJ international, animateur Urban Club sur NRJ Réunion, spécialisé Hip-Hop, R&B, Afro et Dancehall.",
+      "Booker DJ Noname : DJ international, animateur Urban Club sur Urban Hit Réunion, spécialisé Hip-Hop, R&B, Afro et Dancehall.",
     keywords: [
       "DJ Noname",
       "DJ Noname La Réunion",
@@ -435,8 +435,8 @@ export const noNameClient: ClientConfig = {
       "DJ réunionnais La Réunion",
       "DJ Réunion",
       "Urban Hit Réunion",
-      "Urban Club NRJ Réunion",
-      "animateur NRJ Réunion",
+      "Urban Club Urban Hit Réunion",
+      "animateur Urban Hit Réunion",
       "DJ Hip-Hop Réunion",
       "DJ R&B Réunion",
       "DJ Dancehall Réunion",
