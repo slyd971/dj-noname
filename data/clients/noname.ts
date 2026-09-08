@@ -449,6 +449,7 @@ export const noNameClient: ClientConfig = {
     ],
     canonical: "https://dj-noname.presskit.fr/",
     ogImage: "/noname/og-image.jpg",
+    favicon: "/noname/favicon/favicon.ico",
   },
   defaultTheme: "violet",
   defaultVariant: "impact",
