@@ -329,7 +329,7 @@ export function HeroSection({
             )}
 
             {hasStats && (
-              <div className={`grid gap-3 md:gap-4 ${statGridClass}`}>
+              <div data-pk-stats className={`grid gap-3 md:gap-4 ${statGridClass}`}>
                 {hero.stats.map((stat) => (
                   <div
                     key={stat.label}
@@ -420,7 +420,7 @@ export function HeroSection({
           </div>
 
           {hasStats && (
-            <div className={`mt-8 grid gap-3 md:mt-10 md:gap-4 ${statGridClass}`}>
+            <div data-pk-stats className={`mt-8 grid gap-3 md:mt-10 md:gap-4 ${statGridClass}`}>
               {hero.stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -572,7 +572,7 @@ export function HeroSection({
         {hasStats && (
           <motion.div
             variants={heroReveal}
-            className={`mt-5 grid gap-2.5 md:mt-7 md:gap-3 ${statGridClass}`}
+            data-pk-stats className={`mt-5 grid gap-2.5 md:mt-7 md:gap-3 ${statGridClass}`}
           >
             {hero.stats.map((stat, index) => (
               <div

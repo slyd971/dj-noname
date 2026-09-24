@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import kitStyles from "@/components/press-kit/kit.module.css";
 import { GalleryClient } from "@/components/gallery/GalleryClient";
 import { DevControlPanel } from "@/components/press-kit/DevControlPanel";
 import { Header } from "@/components/press-kit/Header";
@@ -69,7 +70,7 @@ export default async function GalleryPage({ searchParams }: GalleryPageProps) {
   return (
     <main
       style={{ ...getTemplateStyle(theme), ...getFontStyle(fontPreset) }}
-      className="bg-[var(--pk-bg)] px-6 py-24 text-[var(--pk-text)]"
+      className={`${kitStyles.kit} bg-[var(--pk-bg)] px-6 py-24 text-[var(--pk-text)]`}
     >
       <Header
         artist={pressKitConfig.artist}
